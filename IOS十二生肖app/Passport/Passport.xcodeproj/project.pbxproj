@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		245138475D58ADCB91FD7E87 /* libPods-Passport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EB9FFB70C278A49013B9280 /* libPods-Passport.a */; };
+		9443FC97250F1F060047FED8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9443FC96250F1F060047FED8 /* AppDelegate.swift */; };
+		9443FC99250F1F060047FED8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9443FC98250F1F060047FED8 /* SceneDelegate.swift */; };
+		9443FC9B250F1F060047FED8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9443FC9A250F1F060047FED8 /* ViewController.swift */; };
+		9443FC9E250F1F060047FED8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9443FC9C250F1F060047FED8 /* Main.storyboard */; };
+		9443FCA0250F1F0A0047FED8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9443FC9F250F1F0A0047FED8 /* Assets.xcassets */; };
+		9443FCA3250F1F0A0047FED8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9443FCA1250F1F0A0047FED8 /* LaunchScreen.storyboard */; };
+		9443FCAE250F1F0A0047FED8 /* PassportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9443FCAD250F1F0A0047FED8 /* PassportTests.swift */; };
+		9443FCB9250F1F0A0047FED8 /* PassportUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9443FCB8250F1F0A0047FED8 /* PassportUITests.swift */; };
+		9443FCC7250F2BC90047FED8 /* CountriesViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9443FCC6250F2BC90047FED8 /* CountriesViewCtrl.swift */; };
+		9443FCC9250F36B40047FED8 /* MapViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9443FCC8250F36B40047FED8 /* MapViewCtrl.swift */; };
+		9443FCCD250F6B520047FED8 /* DetailViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9443FCCC250F6B520047FED8 /* DetailViewCtrl.swift */; };
+		94A3DF79252E03C20040DD6E /* 133.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A3DF78252E03C20040DD6E /* 133.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9443FCAA250F1F0A0047FED8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9443FC8B250F1F060047FED8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9443FC92250F1F060047FED8;
+			remoteInfo = Passport;
+		};
+		9443FCB5250F1F0A0047FED8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9443FC8B250F1F060047FED8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9443FC92250F1F060047FED8;
+			remoteInfo = Passport;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2EB9FFB70C278A49013B9280 /* libPods-Passport.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Passport.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EDABEB737D718ECCF535CD1 /* Pods-Passport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Passport.release.xcconfig"; path = "Target Support Files/Pods-Passport/Pods-Passport.release.xcconfig"; sourceTree = "<group>"; };
+		9443FC93250F1F060047FED8 /* Passport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Passport.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9443FC96250F1F060047FED8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9443FC98250F1F060047FED8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9443FC9A250F1F060047FED8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9443FC9D250F1F060047FED8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9443FC9F250F1F0A0047FED8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9443FCA2250F1F0A0047FED8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9443FCA4250F1F0A0047FED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9443FCA9250F1F0A0047FED8 /* PassportTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassportTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9443FCAD250F1F0A0047FED8 /* PassportTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassportTests.swift; sourceTree = "<group>"; };
+		9443FCAF250F1F0A0047FED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9443FCB4250F1F0A0047FED8 /* PassportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassportUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9443FCB8250F1F0A0047FED8 /* PassportUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassportUITests.swift; sourceTree = "<group>"; };
+		9443FCBA250F1F0A0047FED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9443FCC6250F2BC90047FED8 /* CountriesViewCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesViewCtrl.swift; sourceTree = "<group>"; };
+		9443FCC8250F36B40047FED8 /* MapViewCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewCtrl.swift; sourceTree = "<group>"; };
+		9443FCCC250F6B520047FED8 /* DetailViewCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewCtrl.swift; sourceTree = "<group>"; };
+		94A3DF78252E03C20040DD6E /* 133.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 133.jpg; sourceTree = "<group>"; };
+		E5831F9167421E59250571AF /* Pods-Passport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Passport.debug.xcconfig"; path = "Target Support Files/Pods-Passport/Pods-Passport.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9443FC90250F1F060047FED8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				245138475D58ADCB91FD7E87 /* libPods-Passport.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9443FCA6250F1F0A0047FED8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9443FCB1250F1F0A0047FED8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D3DFDD7572BB5F22861814B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5831F9167421E59250571AF /* Pods-Passport.debug.xcconfig */,
+				3EDABEB737D718ECCF535CD1 /* Pods-Passport.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6A4FB2B9755F9FB63883D689 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2EB9FFB70C278A49013B9280 /* libPods-Passport.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9443FC8A250F1F060047FED8 = {
+			isa = PBXGroup;
+			children = (
+				9443FC95250F1F060047FED8 /* Passport */,
+				9443FCAC250F1F0A0047FED8 /* PassportTests */,
+				9443FCB7250F1F0A0047FED8 /* PassportUITests */,
+				9443FC94250F1F060047FED8 /* Products */,
+				4D3DFDD7572BB5F22861814B /* Pods */,
+				6A4FB2B9755F9FB63883D689 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9443FC94250F1F060047FED8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9443FC93250F1F060047FED8 /* Passport.app */,
+				9443FCA9250F1F0A0047FED8 /* PassportTests.xctest */,
+				9443FCB4250F1F0A0047FED8 /* PassportUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9443FC95250F1F060047FED8 /* Passport */ = {
+			isa = PBXGroup;
+			children = (
+				9443FC96250F1F060047FED8 /* AppDelegate.swift */,
+				9443FC98250F1F060047FED8 /* SceneDelegate.swift */,
+				9443FC9A250F1F060047FED8 /* ViewController.swift */,
+				9443FCC6250F2BC90047FED8 /* CountriesViewCtrl.swift */,
+				9443FCC8250F36B40047FED8 /* MapViewCtrl.swift */,
+				9443FCCC250F6B520047FED8 /* DetailViewCtrl.swift */,
+				9443FC9C250F1F060047FED8 /* Main.storyboard */,
+				9443FC9F250F1F0A0047FED8 /* Assets.xcassets */,
+				9443FCA1250F1F0A0047FED8 /* LaunchScreen.storyboard */,
+				9443FCA4250F1F0A0047FED8 /* Info.plist */,
+				94A3DF78252E03C20040DD6E /* 133.jpg */,
+			);
+			path = Passport;
+			sourceTree = "<group>";
+		};
+		9443FCAC250F1F0A0047FED8 /* PassportTests */ = {
+			isa = PBXGroup;
+			children = (
+				9443FCAD250F1F0A0047FED8 /* PassportTests.swift */,
+				9443FCAF250F1F0A0047FED8 /* Info.plist */,
+			);
+			path = PassportTests;
+			sourceTree = "<group>";
+		};
+		9443FCB7250F1F0A0047FED8 /* PassportUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9443FCB8250F1F0A0047FED8 /* PassportUITests.swift */,
+				9443FCBA250F1F0A0047FED8 /* Info.plist */,
+			);
+			path = PassportUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9443FC92250F1F060047FED8 /* Passport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9443FCBD250F1F0A0047FED8 /* Build configuration list for PBXNativeTarget "Passport" */;
+			buildPhases = (
+				A1E03FDF48532D7E3349C365 /* [CP] Check Pods Manifest.lock */,
+				9443FC8F250F1F060047FED8 /* Sources */,
+				9443FC90250F1F060047FED8 /* Frameworks */,
+				9443FC91250F1F060047FED8 /* Resources */,
+				5F9B39BFE61D4935CE0EA83F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Passport;
+			productName = Passport;
+			productReference = 9443FC93250F1F060047FED8 /* Passport.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9443FCA8250F1F0A0047FED8 /* PassportTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9443FCC0250F1F0A0047FED8 /* Build configuration list for PBXNativeTarget "PassportTests" */;
+			buildPhases = (
+				9443FCA5250F1F0A0047FED8 /* Sources */,
+				9443FCA6250F1F0A0047FED8 /* Frameworks */,
+				9443FCA7250F1F0A0047FED8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9443FCAB250F1F0A0047FED8 /* PBXTargetDependency */,
+			);
+			name = PassportTests;
+			productName = PassportTests;
+			productReference = 9443FCA9250F1F0A0047FED8 /* PassportTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9443FCB3250F1F0A0047FED8 /* PassportUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9443FCC3250F1F0A0047FED8 /* Build configuration list for PBXNativeTarget "PassportUITests" */;
+			buildPhases = (
+				9443FCB0250F1F0A0047FED8 /* Sources */,
+				9443FCB1250F1F0A0047FED8 /* Frameworks */,
+				9443FCB2250F1F0A0047FED8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9443FCB6250F1F0A0047FED8 /* PBXTargetDependency */,
+			);
+			name = PassportUITests;
+			productName = PassportUITests;
+			productReference = 9443FCB4250F1F0A0047FED8 /* PassportUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9443FC8B250F1F060047FED8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Matin;
+				TargetAttributes = {
+					9443FC92250F1F060047FED8 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					9443FCA8250F1F0A0047FED8 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 9443FC92250F1F060047FED8;
+					};
+					9443FCB3250F1F0A0047FED8 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 9443FC92250F1F060047FED8;
+					};
+				};
+			};
+			buildConfigurationList = 9443FC8E250F1F060047FED8 /* Build configuration list for PBXProject "Passport" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9443FC8A250F1F060047FED8;
+			productRefGroup = 9443FC94250F1F060047FED8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9443FC92250F1F060047FED8 /* Passport */,
+				9443FCA8250F1F0A0047FED8 /* PassportTests */,
+				9443FCB3250F1F0A0047FED8 /* PassportUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9443FC91250F1F060047FED8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9443FCA3250F1F0A0047FED8 /* LaunchScreen.storyboard in Resources */,
+				9443FCA0250F1F0A0047FED8 /* Assets.xcassets in Resources */,
+				94A3DF79252E03C20040DD6E /* 133.jpg in Resources */,
+				9443FC9E250F1F060047FED8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9443FCA7250F1F0A0047FED8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9443FCB2250F1F0A0047FED8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F9B39BFE61D4935CE0EA83F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Passport/Pods-Passport-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Passport/Pods-Passport-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Passport/Pods-Passport-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1E03FDF48532D7E3349C365 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Passport-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9443FC8F250F1F060047FED8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9443FC9B250F1F060047FED8 /* ViewController.swift in Sources */,
+				9443FCC9250F36B40047FED8 /* MapViewCtrl.swift in Sources */,
+				9443FCCD250F6B520047FED8 /* DetailViewCtrl.swift in Sources */,
+				9443FC97250F1F060047FED8 /* AppDelegate.swift in Sources */,
+				9443FCC7250F2BC90047FED8 /* CountriesViewCtrl.swift in Sources */,
+				9443FC99250F1F060047FED8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9443FCA5250F1F0A0047FED8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9443FCAE250F1F0A0047FED8 /* PassportTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9443FCB0250F1F0A0047FED8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9443FCB9250F1F0A0047FED8 /* PassportUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9443FCAB250F1F0A0047FED8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9443FC92250F1F060047FED8 /* Passport */;
+			targetProxy = 9443FCAA250F1F0A0047FED8 /* PBXContainerItemProxy */;
+		};
+		9443FCB6250F1F0A0047FED8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9443FC92250F1F060047FED8 /* Passport */;
+			targetProxy = 9443FCB5250F1F0A0047FED8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9443FC9C250F1F060047FED8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9443FC9D250F1F060047FED8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9443FCA1250F1F0A0047FED8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9443FCA2250F1F0A0047FED8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9443FCBB250F1F0A0047FED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9443FCBC250F1F0A0047FED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9443FCBE250F1F0A0047FED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5831F9167421E59250571AF /* Pods-Passport.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Passport/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HHH.Passport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9443FCBF250F1F0A0047FED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EDABEB737D718ECCF535CD1 /* Pods-Passport.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Passport/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HHH.Passport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		9443FCC1250F1F0A0047FED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PassportTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nice.PassportTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Passport.app/Passport";
+			};
+			name = Debug;
+		};
+		9443FCC2250F1F0A0047FED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PassportTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nice.PassportTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Passport.app/Passport";
+			};
+			name = Release;
+		};
+		9443FCC4250F1F0A0047FED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PassportUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nice.PassportUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Passport;
+			};
+			name = Debug;
+		};
+		9443FCC5250F1F0A0047FED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PassportUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nice.PassportUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Passport;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9443FC8E250F1F060047FED8 /* Build configuration list for PBXProject "Passport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9443FCBB250F1F0A0047FED8 /* Debug */,
+				9443FCBC250F1F0A0047FED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9443FCBD250F1F0A0047FED8 /* Build configuration list for PBXNativeTarget "Passport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9443FCBE250F1F0A0047FED8 /* Debug */,
+				9443FCBF250F1F0A0047FED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9443FCC0250F1F0A0047FED8 /* Build configuration list for PBXNativeTarget "PassportTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9443FCC1250F1F0A0047FED8 /* Debug */,
+				9443FCC2250F1F0A0047FED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9443FCC3250F1F0A0047FED8 /* Build configuration list for PBXNativeTarget "PassportUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9443FCC4250F1F0A0047FED8 /* Debug */,
+				9443FCC5250F1F0A0047FED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9443FC8B250F1F060047FED8 /* Project object */;
+}

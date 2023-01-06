@@ -1,0 +1,6 @@
+module Pods_Passport {
+  umbrella header "Pods-Passport-umbrella.h"
+
+  export *
+  module * { export * }
+}
